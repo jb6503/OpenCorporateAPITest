@@ -20,7 +20,7 @@ def get_status_score(status, dissolution):
     else:
         score += 0.8
         if dissolution.year < datetime.date.today().year - 20:
-            score -= 0.4
+            score -= 0.35
         elif dissolution.year < datetime.date.today().year - 10:
             score -= 0.3
         elif dissolution.year < datetime.date.today().year - 5:
