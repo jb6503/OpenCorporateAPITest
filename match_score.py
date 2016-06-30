@@ -67,6 +67,6 @@ with open("/Users/JohnBowers/Desktop/project-folder/CRP_Projects/OC_Test/scorete
         row.append(adScore)
         row.append(statScore)
         writer.writerow(row)
-        
+
 
 fo.close()
